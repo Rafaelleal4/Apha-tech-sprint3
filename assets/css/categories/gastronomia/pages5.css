@@ -1,0 +1,303 @@
+body {
+    background-color: #c8c5af; 
+    
+}
+
+.logo {
+    margin: auto;
+    display: block;
+    width: 64px;
+}
+
+/*Animação da logo*/
+.logo:hover {
+    animation: rotation 2s infinite linear;
+}
+
+/*Animação da Camerasinha*/
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+/*sub titulo*/
+.banner {
+    text-align: center;
+}
+
+ /*São os ps do testo*/
+#brioche {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/*são os titulos principais*/
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+/*onde tem img e texto tudo junto .-.*/
+#receita {
+
+    text-align: center;
+    font-size: 20px;
+}
+
+#brio3 {
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    margin: auto;
+    font-size: 16px;
+    
+}
+
+/*img com texto do lado*/
+#bordavd {
+    display: flex;
+    padding: 70px;
+    text-align: center;
+}
+
+#Ncolor {
+    display: flex;
+    width: 100%;
+    margin: 5px;
+    color: #fff;
+    justify-content: center;
+    width: 90%;
+    margin: 95px;
+    justify-content: center;
+    background-color: #34576b;
+
+
+}
+/*receita 2*/
+.news2{
+    width: 90%;
+    margin: 60px;
+    padding: 2px;
+    text-align: right;
+    font-size: 14px;
+    color: #fff;
+    margin: 95px;
+    justify-content: center;
+    background-color: #34576b;
+}
+
+/*titulo*/
+.Btext{
+    color: #fff;
+}
+
+/*texto*/
+#brio3{
+    text-align:right;
+    color:#fff;
+    justify-content: right;
+}
+
+/*texto*/
+#brio4{
+    color:#fff;
+    text-align: center;
+}
+
+/*texto*/
+.news3{
+    color:#fff;
+    font-size: 14px;
+    width: 70%;
+    margin: 95px;
+    justify-content: center;
+    background-color: #34576b;
+}
+
+/*titulo*/
+.title{
+    color:#fff ;
+}
+
+/*titulo*/
+.title2{
+   color:#fff ;
+}
+
+/*texto*/
+#brio5{
+    text-align: center;
+    color:#fff ;
+    font-size: 12px;
+}
+
+#brio6{
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+
+}
+/*titulo*/
+
+.title3{
+    text-align: right;
+}
+
+
+#internews{
+    color: black;
+}
+
+.title4{
+    color: #fff;
+    margin: 10px;
+}
+
+.title6{
+    color: #fff;
+}
+
+#brio8{
+    color: #fff;
+    text-align: center;
+}
+
+#brio7{
+    text-align: center;
+    color: #fff;
+}
+.title5{
+    color: #fff;
+}
+.title1{
+    color: #fff;
+}
+
+#brio3{
+    text-align: center;
+}
+
+.title7{
+    color: #fff;
+}
+
+.title3{
+     color: #fff;
+     text-align: center;
+}
+
+#p1{
+     color: #fff;
+     text-decoration: none;
+}
+
+.news8{
+    width: 70%;
+    margin: 95px;
+    justify-content: center;
+    background-color: #34576b;
+}
+
+.news7{
+    width: 70%;
+    margin: 95px;
+    justify-content: center;
+    background-color: #34576b;
+}
+
+.news6{
+    width: 70%;
+    margin: 95px;
+    justify-content: center;
+    background-color: #34576b;
+}
+
+.news5{
+    width: 70%;
+    margin: 95px;
+    justify-content: center;
+    background-color: #34576b;
+}
+
+.news4{
+    width: 70%;
+    margin: 95px;
+    justify-content: center;
+    background-color: #34576b;
+}
+
+#estrelas  {
+    text-align: center;
+    color: gold;
+}
+
+#space {
+    display: flex;
+    margin: 3%;
+    justify-content: space-between;
+}
+
+.opinião {
+    margin: 3%;
+    padding: 3%;
+    font-size: 20px;
+}
+
+.perfil {
+    width: 150px;
+    height: 150px
+}
+
+.card-geral {
+    border: 1px solid #000;
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+
+}
+
+.card {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+#username {
+    margin: 10px;
+    padding: 0;
+    margin-left: 175px;
+
+}
+
+#estrelas {
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: #ffc107;
+    margin-bottom: 5px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}

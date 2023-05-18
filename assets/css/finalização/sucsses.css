@@ -1,0 +1,83 @@
+
+
+/*estilização do corpo*/
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(246, 235, 213);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* estilização da div*/
+div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10%;
+    width: 25%;
+    margin: auto;
+    height: 200px;
+    align-items: center;
+    box-shadow: -webkit-box-shadow 26px 12px 20px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 26px 12px 20px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 26px 12px 20px 2px rgba(0, 0, 0, 0.75);
+}
+
+/*imagen sucess*/
+#img1 {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+/*estilização do botão*/
+#button {
+    border-radius: 15px;
+    width: 180px;
+    
+    padding: 0;
+}
+
+/*  estilização do iframe*/
+#iframe1 {
+    position: fixed;
+    bottom: 0;
+    height: 120px;
+}
+
+/* segunda parte da estilização do iframe*/
+#iframe1 {
+    position: fixed;
+    bottom: 0;
+    height: 120px;
+}
+
+#button:hover {
+    box-shadow: 0 0 50px black;
+    background-color: #7e94a2;
+
+}
+
+
+
+.sussection {
+    border-radius: 100%;
+}
+#footer{
+    margin-bottom: -5px;
+    margin-top:8%;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.susarticle1 {
+    margin: 0%;
+}
+
+#header1 {
+    margin-bottom: 8%;
+}

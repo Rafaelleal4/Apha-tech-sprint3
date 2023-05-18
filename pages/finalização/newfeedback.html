@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback</title>
+  <link rel="stylesheet" href="../../assets/css/finalização/newfeedback.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <iframe src="../../layout/header.html" frameborder="0" scrolling="no" width="100%" height="200px"></iframe>
+  </header>
+
+
+  <h1>Feedback</h1>
+  <form class="cf">
+
+    <div class="half left cf">
+      <input type="text" id="input-name" placeholder="Nome">
+      <input type="email" id="input-email" placeholder="Email ">
+      <input type="text" id="input-subject" placeholder="Subject">
+    </div>
+
+    <div class="half right cf">
+      <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+
+    </div>
+
+  </form>
+
+  <button onclick="mostrarPopUp()" id="input-submit">
+    <p>Enviar</p>
+  </button>
+  <!-- Contêiner da pop-up -->
+  <div class="popup-container" id="popup-container">
+    <!-- Conteúdo da pop-up -->
+    <div class="popup-content">
+      <img src="../../assets/img/success.png"
+        alt="imagem contento um certinho para a indicação visual de validação de envio">
+      <p class="popup-text">O envio foi concluído com sucesso</p>
+      <a href="#" class="popup-close" onclick="fecharPopUp()">Fechar</a>
+    </div>
+  </div>
+
+  <footer>
+    <iframe id="footer" src="../../layout/footer.html" frameborder="0" scrolling="no" width="100%"
+      height="350px"></iframe>
+  </footer>
+
+  <script src="../../assets/js/success.js"></script>
+</body>
+
+</html>

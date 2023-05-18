@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../../assets/css/finalização/contato.css">
+    <link rel="icon" type="image/png" href="assets/img/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <iframe src="../../layout/header.html" frameborder="0" width="100%" height="200px" scrolling="no"></iframe>
+    <!--DIV para a edição geral do card principal-->
+    <div class="background">
+        <!--DIV para a edição geral do card principal-->
+        <div class="container">
+            <!--DIV para a edição onde fica a parte das informações do user-->
+            <div class="tela">
+                <div class="linha-superior">
+                    <div class="esquerda">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                    </div>
+                    <div class="direita">
+                        <div class="pontos"></div>
+                        <div class="pontos"></div>
+                        <div class="pontos"></div>
+                    </div>
+                </div>
+                <div class="screen-body">
+                    <div class="screen-body-item left">
+                        <div class="contact-us">
+                            <span>Entre em </span>
+                            <span>Contato</span>
+                        </div>
+                        <div class="app-contact">NUMERO DE CONTATO : +55 (19) 99451-1738</div>
+                    </div>
+                    <div class="screen-body-item">
+                        <div class="app-form">
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="NOME">
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="EMAIL">
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="TELEFONE (+55)">
+                            </div>
+                            <div class="app-form-group message">
+                                <input class="app-form-control" placeholder="MESSAGEM">
+                            </div>
+
+                            <button onclick="mostrarPopUp()"> Enviar </button>
+
+                            <!-- Contêiner da pop-up -->
+                            <div class="popup-container" id="popup-container">
+                                <!-- Conteúdo da pop-up -->
+                                <div class="popup-content">
+                                    <i class="popup-icon fa fa-check-circle"></i>
+                                    <img src="../../assets/img/success.png"
+                                        alt="imagem contento um certinho para a indicação visual de validação de envio">
+                                    <p class="popup-text">O envio foi concluído com sucesso</p>
+
+                                    <a href="#" class="popup-close" onclick="fecharPopUp()">Fechar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="../../assets/js/success.js"></script>
+</body>
+<iframe src="../../layout/footer.html" frameborder="0" width="100%" scrolling="no" height="350px" id="footer"></iframe>
+
+</html>

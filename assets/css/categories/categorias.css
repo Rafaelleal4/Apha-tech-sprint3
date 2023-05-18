@@ -1,0 +1,190 @@
+/*Edições gerais*/
+body {
+    margin: 0;
+    background-color: #cab98c;
+    overflow-x: hidden; 
+}
+
+/*edições do título da página*/
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: georgia;
+    text-shadow: 3px 2px #fff;
+}
+
+/*edições do título das categorias*/
+h2 {
+    text-align: left;
+}
+
+/*edições nos articles*/
+article {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin: 50px;
+}
+
+/*edições no texto das imagens*/
+div {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+    bottom: 20px;
+    opacity: 0;
+    padding: 50px;
+}
+
+/*edições nos links*/
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/*edições na transição do texto nas imagens*/
+div:hover {
+    opacity: 1;
+    background-color: rgba(3, 3, 3, 0.5);
+    height: 300px;
+}
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardvest {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../img/categorias/vestibular.jpg);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardcult {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../img/categorias/cultura.jpg);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardcine {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../img/categorias/cinema.jpg);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardgastro {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../img/categorias/gastronomia.jpg);
+    background-size: cover;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardesport {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../img/categorias/esportes.jpg);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+
+/*edições nas imagens (cards) de cada categoria para ser possível adicionar um diferente background-image em cada*/
+#cardecono {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-image: url(../../img/categorias/economia.jpg);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+
+#footer {
+    display: flex;
+    position: relative ;
+    bottom: -10px;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 600px){
+    article {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin: 5% auto;
+    }
+
+    #cardvest, #cardcult, #cardcine, #cardgastro, #cardecono, #cardesport{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+        box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+        background-size: cover;
+    } 
+
+    div:hover {
+        bottom: 1px;
+        opacity: 1;
+        background-color: rgba(3, 3, 3, 0.5);
+        height: 500px;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        font-family: georgia;
+        text-shadow: 3px 2px #fff;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+
+    #footer {
+        height: 550px;
+    }
+}

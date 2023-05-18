@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c8c5af;
+}
+
+#rodape {
+    display: flex;
+}
+
+.logo {
+    margin: auto;
+    display: block;
+    width: 64px;
+}
+
+
+.logo:hover {
+    animation: rotation 2s infinite linear;
+}
+
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.banner {
+    text-align: center;
+}
+
+
+#brioche {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+#receita {
+
+    text-align: center;
+    font-size: 20px;
+}
+
+#brio3 {
+    padding: 10px;
+    margin-right: 10px;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+
+#bordavd {
+    display: flex;
+    padding: 70px;
+    text-align: center;
+}
+
+#Ncolor {
+    display: flex;
+    width: 85%;
+    margin: 90px;
+    color: white;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #34576b;
+
+
+}
+
+.news2 {
+    margin: 80px;
+    width: 80%;
+    padding: 50px;
+    font-size: 14px;
+    display: flex;
+    border-radius: 5px;
+    color: #fff;
+    justify-content: center;
+    background-color: #34576b;
+
+}
+
+/*receita 2*/
+.news2 {
+    width: 90%;
+    margin: 60px;
+    padding: 2px;
+    text-align: right;
+    font-size: 14px;
+    color: #fff;
+}
+
+.Btext {
+    color: #fff;
+}
+
+
+#internews {
+    color: black;
+}
+
+.video {
+    text-align: center;
+}
+
+#estrelas {
+    text-align: center;
+    color: gold;
+}
+
+#space {
+    display: flex;
+    margin: 3%;
+    justify-content: space-between;
+}
+
+.opinião {
+    margin: 3%;
+    padding: 3%;
+    font-size: 20px;
+}
+
+.perfil {
+    width: 150px;
+    height: 150px
+}
+
+.card-geral {
+    border: 1px solid #000;
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+
+}
+
+.card {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+#username {
+    margin: 10px;
+    padding: 0;
+    margin-left: 175px;
+
+}
+
+#estrelas {
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: #ffc107;
+    margin-bottom: 5px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
