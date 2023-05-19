@@ -1,0 +1,23 @@
+body{
+    background-color: #c8c5a7;
+}
+h1{
+    text-align: center;
+}
+div{
+    height: 32vh;
+    width: 97vw;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input {
+    border-radius: 5px;
+    width: 96vw;
+    height: 5vh;
+    margin-left: 10px;
+}
+label {
+    margin-left: 10px;
+}
