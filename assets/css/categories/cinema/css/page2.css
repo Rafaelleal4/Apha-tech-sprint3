@@ -32,7 +32,7 @@ main {
     box-shadow: -webkit-box-shadow 23px 23px 28px 16px rgba(169, 0, 0, 0.75);
     -moz-box-shadow: 23px 23px 28px 16px rgba(223, 25, 25, 0.75);
     box-shadow: 23px 23px 28px 16px rgba(0, 0, 0, 0.75);
-    }
+}
 
 img {
     display: flex;
@@ -42,7 +42,7 @@ img {
     margin: 15px;
 }
 
-video{
+video {
     width: 500px;
     height: 300px;
     display: flex;
@@ -75,11 +75,12 @@ p {
 h2 {
     display: flex;
     justify-content: center;
-    color:rgb(106, 153, 206);
+    color: rgb(106, 153, 206);
 }
 
 #ppp {
     float: right;
+    display: flex;
 
 }
 
@@ -89,15 +90,15 @@ h2 {
 
 #ajeitar {
     margin-left: 5%;
-    margin-top:5%;
+    margin-top: 5%;
     text-align: left;
-    border:5px rgb(99, 119, 190) ridge;
+    border: 5px rgb(99, 119, 190) ridge;
     margin-bottom: 1%;
 }
 
 #backimg {
-    background-image:  url(../../../../img/lovelove.png);
-    border:5px gray ridge;
+    background-image: url(../../../../img/lovelove.png);
+    border: 5px gray ridge;
 }
 
 h3 {
@@ -111,16 +112,20 @@ p {
 #title {
     background-color: black;
 }
-#h3{
+
+#h3 {
     color: rgb(84, 119, 194);
 }
-#internews{
+
+#internews {
     margin-right: 90%;
 }
-#rodape{
+
+#rodape {
     margin-top: 40px;
     margin-bottom: -5px;
 }
+
 #anola {
     width: 20%;
     height: 16%;
@@ -159,7 +164,7 @@ p {
     border-radius: 10px;
     padding: 20px;
     max-width: 400px;
-    background-color:rgb(57, 57, 118);
+    background-color: rgb(57, 57, 118);
     margin: 10px;
 }
 
@@ -218,6 +223,7 @@ p {
 #botao {
     align-items: left;
 }
+
 /*Edições no link no botão de voltar*/
 .bannerA {
     text-decoration: none;
@@ -225,6 +231,7 @@ p {
     align-items: left;
     margin: 10px;
 }
+
 /*Edições no botão de voltar*/
 #categ {
     margin: auto;
@@ -236,4 +243,10 @@ p {
     background-color: #3b4350;
     color: white;
     text-align: center;
+}
+
+@media (max-width: 678px) {
+    #ppp{
+        flex-direction: column;
+    }
 }
