@@ -74,7 +74,7 @@ section {
     position: relative;
 }
 
-@media (max-width: 678px) {
+@media (max-width: 650px) {
     section{
         flex-direction: column;
     }
