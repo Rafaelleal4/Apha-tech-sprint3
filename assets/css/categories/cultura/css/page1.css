@@ -225,6 +225,18 @@ h1 {
     padding: 10px;
     
 }
+@media (max-width: 390px){
+    .banner{
+        width: 200px ;
+        }
+        .img{
+            width: 200px;
+        }
+        .news1{
+            width: 100px;
+        }
+    }
+
 
 
 
