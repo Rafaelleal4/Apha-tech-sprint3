@@ -111,16 +111,16 @@ a:hover:after {
 }
 @media (max-width: 390px){
     section{
-        background-color:#c8c6a7;
+        background-color: white;
         word-break: normal;
+        width: 290px;
+        text-align: center;
     }
    .info1{
 
    }
    .img2{
-    
-    height: 200px;
-    width: 150px;
+    display: none;
    }
    .title{
     right: 100;
