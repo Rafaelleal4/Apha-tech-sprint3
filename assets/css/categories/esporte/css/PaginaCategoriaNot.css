@@ -1,14 +1,13 @@
-* {
+
+body {
+    background-color: #c8c5a7;
     margin: 0;
     padding: 0;
 }
 
-body {
-    background-color: #c8c5a7;
-}
-
 #eco {
-    margin-left: 45%;
+    margin-left: auto;
+    margin-right: auto;
     font-size: xx-large;
     font-family: fantasy;
 }
@@ -82,17 +81,20 @@ section {
     justify-content: space-between;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 966px) {
+    section{
+        flex-direction: column;
+    }
     .geral {
-        display: flex;
         flex-direction: column;
     }
 
     .card {
-        display: flex;
+        flex-direction: column;
         margin: 7% auto;
         width: 350px;
         height: 450px;
+        margin-top: -1px;
     }
 
     #footer {
@@ -100,5 +102,8 @@ section {
     }
     p {
         margin-top: 10px ;
+    }
+    #eco {
+        font-size: 50px;
     }
 }
