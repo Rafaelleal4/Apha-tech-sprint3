@@ -42,7 +42,7 @@ footer {
     right: 0;
     height: 0;
     padding: 20px;
-    background-color: #ff0000;
+    background-color: #ddd;
     transition: 0.3s ease;
 }
 
@@ -109,14 +109,27 @@ footer {
         height: 20vh;
     }
     p{
-        margin-top: 5vh;
+        margin-top: 2vh;
     }
     footer{
+        margin-top: 5vh;
+    }
+    #arr2{
+        margin-top: 3vh;
+    }
+    #arr3{
+        margin-top: 5vh;
+    }
+    #arr4{
         margin-top: 5vh;
     }
     #eco{
         margin-top: 3vh;
         margin-left: 32vw;
         margin-right: 32vw;
+    }
+    #fed{
+        width: 70vw;
+
     }
 }
