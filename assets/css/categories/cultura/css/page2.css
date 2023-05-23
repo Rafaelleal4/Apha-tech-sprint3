@@ -295,9 +295,8 @@ body {
         justify-content: center;
     }
     #Ncolor{
-display: flex
-flex-directions 
-    }
+        width: 285px;
+       }
     .img{
         width: 360px;
     }
