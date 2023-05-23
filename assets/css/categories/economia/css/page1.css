@@ -112,7 +112,7 @@ h2 {
     bottom: -5px;
 }
 
-#estrelas  {
+#estrelas {
     text-align: center;
     color: gold;
 }
@@ -172,4 +172,55 @@ h2 {
     margin-top: 10px;
     font-size: 1.2rem;
     line-height: 1.5;
+}
+
+@media (max-width: 500px) {
+    #space {
+        flex-direction: column;
+    
+    }
+    .card-geral {
+        margin-top: 10vh;
+        font-size: 9px;
+        width: 90vw;
+        padding: 0;
+    }
+
+    .estrelas {
+        text-align: left;
+    }
+
+    #username {
+        text-align: left;
+        margin-left: 10vw;
+    }
+
+    .opinião {
+        font-size: 10px;
+        justify-content: center;
+    }
+
+    .Btext {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #Ncolor {
+        margin-top: 3vh;
+        padding: 0;
+        width: 90vw;
+        margin-left: 5vw;
+        font-size: 10px;
+    }
+
+    #internews {
+        padding: 0;
+    }
+
+    .DAC {
+        font-size: 7px;
+    }
+    .perfil{
+       margin-left: 4vw;
+    }
 }
