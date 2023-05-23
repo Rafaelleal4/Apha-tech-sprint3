@@ -89,7 +89,7 @@ footer {
 
 
 
-@media (max-width: 390px) {
+@media (max-width: 600px) {
     section {
         flex-direction: column;
         width: 10vw;
@@ -109,13 +109,13 @@ footer {
         height: 20vh;
     }
     p{
-        margin-top: 2vh;
+        margin-top: 3vh;
     }
     footer{
         margin-top: 5vh;
     }
     #arr2{
-        margin-top: 3vh;
+        margin-top: 5vh;
     }
     #arr3{
         margin-top: 5vh;
