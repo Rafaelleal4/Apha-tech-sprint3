@@ -149,11 +149,17 @@ a:hover::after {
 @media (max-width:600px) {
     li {
         font-size: 12px;
-        padding: 5px;
+        justify-content: space-between;
     }
-
     a {
         padding: 0;
+    }
+    #cont{
+        margin-left: 30vw;
+    }
+    div{
+        margin-left: 2vw;
+        
     }
 
 }

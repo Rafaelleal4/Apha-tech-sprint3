@@ -42,7 +42,7 @@ footer {
     right: 0;
     height: 0;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ddd;
     transition: 0.3s ease;
 }
 
@@ -87,28 +87,49 @@ footer {
     margin-bottom: -10%;
 }
 
-@media (max-width: 600px) {
-    .geral {
-        display: flex;
-        flex-direction: column;
-    }
 
+
+@media (max-width: 390px) {
+    section {
+        flex-direction: column;
+        width: 10vw;
+
+    }
     .card {
-        display: flex;
-        margin: 7% auto;
-        width: 350px;
-        height: 450px;
+        height: 50vh;
+        width: 70vw;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        margin-top: 5vh;
     }
+    .card .content {
+        height: 7vh;
+    }
+    .card:hover .content{
+        height: 20vh;
+    }
+    p{
+        margin-top: 2vh;
+    }
+    footer{
+        margin-top: 5vh;
+    }
+    #arr2{
+        margin-top: 3vh;
+    }
+    #arr3{
+        margin-top: 5vh;
+    }
+    #arr4{
+        margin-top: 5vh;
+    }
+    #eco{
+        margin-top: 3vh;
+        margin-left: 32vw;
+        margin-right: 32vw;
+    }
+    #fed{
+        width: 70vw;
 
-    #footer {
-        height: 550px;
-    }
-    p {
-        margin-top: 10px ;
-    }
-}
-@media (max-width: 800px){
-    .card{
-        flex-direction: column;
     }
 }
