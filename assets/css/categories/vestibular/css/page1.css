@@ -74,14 +74,16 @@ section {
     position: relative;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 678px) {
+    section{
+        flex-direction: column;
+    }
     .geral {
-        display: flex;
         flex-direction: column;
     }
 
     .card {
-        display: flex;
+        flex-direction: column;
         margin: 7% auto;
         width: 350px;
         height: 450px;
@@ -92,5 +94,8 @@ section {
     }
     p {
         margin-top: 10px ;
+    }
+    #eco {
+        font-size: 50px;
     }
 }

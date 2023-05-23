@@ -81,7 +81,7 @@ section {
     justify-content: space-between;
 }
 
-@media (max-width: 966px) {
+@media (max-width: 678px) {
     section{
         flex-direction: column;
     }
