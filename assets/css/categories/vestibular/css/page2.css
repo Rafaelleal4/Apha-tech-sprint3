@@ -173,3 +173,28 @@ h2 {
     font-size: 1.2rem;
     line-height: 1.5;
 }
+@media(max-width: 650px){
+     body{
+        background-color: #c8c5a7;
+        margin: 0;
+        padding: 0;
+    }
+    iframe{
+        width: 234vw;
+    }
+    #Ncolor{
+    width: 150vw;
+    margin-left: 43vw;
+    }
+    .banner{
+        width: 234vw;
+    }
+    .card {
+        flex-direction: column;
+
+    }
+    .img{
+        width: 234vw;
+    }
+
+}
