@@ -15,7 +15,7 @@ footer {
 section {
     margin-left: 10%;
     margin-right: 10%;
-    width: 80%;
+    text-align: center;
     border-radius: 8px;
     background-color: whitesmoke;
     margin: 2% auto;
@@ -39,10 +39,8 @@ h1 {
 }
 
 .img2 {
-    margin: 5%;
-    align-items: center;
-    width: 270px;
-    height: 359px;
+    height: 200px;
+    width: 200px;
 }
 
 .info1 {
