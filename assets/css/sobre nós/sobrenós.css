@@ -109,3 +109,20 @@ a:hover {
 a:hover:after {
     width: 100%;
 }
+@media (max-width: 390px){
+    section{
+        background-color:#c8c6a7;
+        word-break: normal;
+    }
+   .info1{
+
+   }
+   .img2{
+    
+    height: 200px;
+    width: 150px;
+   }
+   .title{
+    right: 100;
+   }
+}
