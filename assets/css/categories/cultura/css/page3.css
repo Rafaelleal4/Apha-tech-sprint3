@@ -142,3 +142,33 @@ a{
     padding: 10px;
     
 }
+@media (max-width: 390px){
+    .img1{
+        width: 360px;
+    }
+    .news1{
+        
+    }
+    #Ncolor{
+        width: 300px;
+    }
+    .img{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .imgH{
+        width: 50px;
+    }
+    img{
+        width: 200px;
+    }
+    #comentarios{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .card-geral{
+        width: 270px;
+    }
+}
