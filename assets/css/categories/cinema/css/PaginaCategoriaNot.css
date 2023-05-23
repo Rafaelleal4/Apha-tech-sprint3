@@ -88,6 +88,10 @@ iframe {
 @media (max-width: 650px) {
     #art01 {
         flex-direction: column;
-        margin-left: 10%;
+        margin-left: 4%;
+    }
+
+    .sections{
+        margin-top: 10%;
     }
 }
