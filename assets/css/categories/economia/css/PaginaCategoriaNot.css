@@ -95,17 +95,28 @@ footer {
         width: 10vw;
 
     }
-
     .card {
         height: 50vh;
         width: 70vw;
         margin-left: 15vw;
         margin-right: 15vw;
         margin-top: 5vh;
-    }.card .content{
+    }
+    .card .content {
         height: 7vh;
     }
+    .card:hover .content{
+        height: 20vh;
+    }
+    p{
+        margin-top: 5vh;
+    }
     footer{
-    margin-top: 5vh;
+        margin-top: 5vh;
+    }
+    #eco{
+        margin-top: 3vh;
+        margin-left: 32vw;
+        margin-right: 32vw;
     }
 }
