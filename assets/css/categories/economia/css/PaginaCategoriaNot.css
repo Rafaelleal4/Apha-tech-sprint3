@@ -1,10 +1,10 @@
-#eco {
+#eco{
     margin-left: 45%;
     font-size: xx-large;
     font-family: fantasy;
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -86,10 +86,7 @@ body {
 footer {
     margin-bottom: -10%;
 }
-
-
-
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     section {
         flex-direction: column;
         width: 10vw;
@@ -100,27 +97,36 @@ footer {
         width: 70vw;
         margin-left: 15vw;
         margin-right: 15vw;
-        margin-top: 5vh;
+        margin-top: 3vh;
+        font-size: small;
+    }
+    h2{
+        font-size: 2px;
     }
     .card .content {
-        height: 7vh;
+        height: 13vh;
     }
     .card:hover .content{
-        height: 20vh;
+        height: 30vh;
     }
     p{
-        margin-top: 3vh;
+        margin-top: 1vh;
     }
-    footer{
-        margin-top: 5vh;
+    #arr2t{
+        font-size: 18px;
     }
     #arr2{
-        margin-top: 5vh;
+        margin-top: 7vh;
+        font-size: 12px;
     }
     #arr3{
-        margin-top: 5vh;
+        margin-top: 7vh;
+font-size: 12px;
     }
     #arr4{
+        margin-top: 10vh;
+    }
+    footer{
         margin-top: 5vh;
     }
     #eco{
@@ -130,6 +136,5 @@ footer {
     }
     #fed{
         width: 70vw;
-
     }
 }
