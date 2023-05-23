@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/lista.css">
+    <script src="../assets/js/lista.js"></script>
     <title>Alpha Tech</title>
 </head>
 <body>
@@ -11,20 +12,36 @@
     <div>
         <label>Título</label>
         <br>
-        <input type="text" placeholder="Título">
+        <input id="title" type="text" placeholder="Título">
         <br>
         <label>Data</label>
         <br>
-        <input type="date" name="" id="" >
+        <input id="calendar" type="date" name="" id="" >
         <br>
         <label>Descrição</label>
         <br>
-        <input type="text" placeholder="Descrição">
+        <input id="descricao" type="text" placeholder="Descrição">
         <br>
         <label>Autor</label>
         <br>
-        <input type="text" placeholder="Autor">
+        <input id="dono" type="text" placeholder="Autor">
         <br>
+        <button id="enviar" onclick="enviar()">Clique Aqui</button>
+    </div>
+    <div>
+        <section>
+<h1 id="titulo"></h1>
+        </section>
+        <section>
+<h3 id="date"></h3>
+        </section>
+        <section>
+<h3 id="description"></h3>
+        </section>
+        <section>
+<h3 id="autor"></h3>
+        </section>
+        <button id="remover" onclick="remover()"></button>
     </div>
     
 </body>

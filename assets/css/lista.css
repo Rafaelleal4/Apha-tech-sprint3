@@ -5,8 +5,8 @@ h1{
     text-align: center;
 }
 div{
-    height: 32vh;
-    width: 97vw;
+    height: auto;
+    width: 97.5vw;
     background-color: white;
     border-radius: 5px;
     margin-left: auto;
@@ -20,4 +20,40 @@ input {
 }
 label {
     margin-left: 10px;
+}
+#calendar {
+    width: auto;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+#enviar { 
+    border-radius: 5px;
+    height: 4vh;
+    width: auto;
+    background-color: #76b900;
+    color: white;
+    margin-left: 10px;
+}
+#titulo { 
+    text-align: left;
+    margin-bottom: -2vh;
+}
+#date {
+    color: gray;
+    margin-bottom: -2vh;
+}
+#description {
+    color: gray;
+    margin-bottom: -1.5vh;
+}
+#autor {
+    color: gray;
+    
+}
+#remover {
+    margin-left: 20vw;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: auto;
 }
