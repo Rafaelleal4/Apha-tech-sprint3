@@ -180,4 +180,27 @@ img {
     display: flex;
     margin-bottom: -5px;
 }
-
+@media(max-width: 650px){
+    body{
+        background-color: #c8c5a7;
+        margin: 0;
+        padding: 0;
+    }
+    iframe{
+        width: 195vw;
+    }
+    #Ncolor{
+    width: 150vw;
+    }
+    .banner{
+        width: 190vw;
+    }
+    .card {
+        flex-direction: column;
+    }
+    #all-cards{
+        margin-left: 28vw;
+        margin-right: 20vw;
+    }
+    
+}
