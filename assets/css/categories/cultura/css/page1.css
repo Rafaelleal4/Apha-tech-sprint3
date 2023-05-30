@@ -226,6 +226,7 @@ h1 {
     
 }
 @media (max-width: 600px){
+
     .banner{
         width: 100% ;
         }
@@ -281,6 +282,9 @@ h1 {
         }
         .news1{
             margin: 0%;
+        }
+        .banner{
+            width: 100%;
         }
     }
     
