@@ -295,9 +295,10 @@ body {
         justify-content: center;
     }
     #Ncolor{
-        width: 285px;
+        margin: 0%;
+        width: 100%;
        }
     .img{
-        width: 360px;
+        width: 240%;
     }
 }
