@@ -48,8 +48,9 @@ section {
 
 .footer-geral h3 {
     color: #ffffff;
-    font: normal 36px 'Roboto', cursive;
+    font: normal 70px 'Roboto', cursive;
     margin: 0 0 10px;
+    text-align: center;
 }
 
 .footer-geral h3 span {
@@ -61,7 +62,8 @@ section {
 .footer-geral .links {
     color: #ffffff;
     text-decoration: none;
-    margin: 0 0 10px;
+    font-size: 15px;
+    margin-left: 1.8vw;
     padding: 0;
 }
 
@@ -73,10 +75,9 @@ section {
 }
 
 .footer-geral .nome {
+    text-align: center;
     color: #8f9296;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
+    font-size: 15px;
 }
 
 /* Footer social icons */
@@ -178,33 +179,18 @@ p {
     font-weight: bold;
     float: right;
 }
-#noah{
-    display: flex;
+
+.footer2 {
+    margin-left: 38vw;
+    margin-right: 38vw;
 }
-@media(max-width: 650px){
-    #noah{
-        flex-direction: column;
-    }
-    .footer-geral form input,
-.footer-geral form textarea {
-    width: 200px;
+
+.git-insta {
+    margin-left: 7vw;
 }
-#noah3{
-    margin-top: -16vh;
-}
-}
-@media(max-width: 300px){
-    #noah{
-        flex-direction: column;
-    }
-    .footer-geral form input,
-.footer-geral form textarea {
-    width: 200px;
-}
-#noah3{
-    margin-top: -10vh;
-}
-footer {
-    margin: -25px;
+
+@media(max-width: 650px) {
+.footer2{
+    font-size: xx-small;
 }
 }
