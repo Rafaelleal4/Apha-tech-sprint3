@@ -308,3 +308,82 @@ h2 {
     font-size: 1.2rem;
     line-height: 1.5;
 }
+@media (max-width: 650px) {
+    #Ncolor {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        width: 90vw;
+        margin-top: 1vh;
+        font-size: 20px;
+    }
+
+    .news2 {
+    
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: -2vh;
+        width: 91vw;
+    }
+
+    .news3 {
+        font-size: 20px;
+        margin-top: -7vh;
+        margin-left: 14vw;
+    }
+    #brio3{
+        font-size: 20px;
+    }
+
+    .news4 {
+        margin-top: -9vh;
+        margin-left: 0vw;
+        margin-right: 4vw;
+    }
+#brio5{
+    font-size: 20px;
+}
+    #space {
+        flex-direction: column;
+    }
+
+    .card-geral {
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-top: 10vh;
+        font-size: 9px;
+        width: 85vw;
+        padding: 0;
+    }
+
+    #username {
+        text-align: left;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        font-size: 20px;
+    }
+
+    .opinião {
+        font-size: 15px;
+        justify-content: center;
+    }
+
+    .perfil {
+        margin-left: 5vw;
+    }
+
+    video {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .DAC {
+        text-align: left;
+        margin-left: 2vw;
+    }
+
+    #briocheimg {
+        width: 80vw;
+    }
+}

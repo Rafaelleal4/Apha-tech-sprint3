@@ -263,11 +263,11 @@ h2 {
     }
 
     .news2 {
-        font-size: 50px;
+    
         margin-left: 5vw;
         margin-right: 5vw;
         margin-top: -2vh;
-        width: 90vw;
+        width: 91vw;
     }
 
     .news3 {
@@ -275,14 +275,18 @@ h2 {
         margin-top: -7vh;
         margin-left: 14vw;
     }
+    #brio3{
+        font-size: 20px;
+    }
 
     .news4 {
-        font-size: xx-large;
         margin-top: -9vh;
         margin-left: 0vw;
         margin-right: 4vw;
     }
-
+#brio5{
+    font-size: 20px;
+}
     #space {
         flex-direction: column;
     }
