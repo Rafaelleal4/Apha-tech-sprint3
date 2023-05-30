@@ -114,8 +114,5 @@ a:hover:after {
     .info1{
         flex-direction: column;
     }
-    .title{
-        margin-right: 140px;
-    }
    
 }
