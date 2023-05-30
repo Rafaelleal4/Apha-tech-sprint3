@@ -1,5 +1,5 @@
 body {
-    background-color: #c8c5af;  
+    background-color: #c8c5af;
 }
 
 .logo {
@@ -62,7 +62,7 @@ h2 {
     margin-right: 10px;
     margin: auto;
     font-size: 16px;
-    
+
 }
 
 
@@ -88,7 +88,7 @@ h2 {
 
 }
 
-.news2{
+.news2 {
     width: 90%;
     margin: 60px;
     padding: 2px;
@@ -98,14 +98,14 @@ h2 {
 }
 
 
-.Btext{
+.Btext {
     color: #fff;
 }
 
 
-#brio3{
-    text-align:center;
-    color:#fff;
+#brio3 {
+    text-align: center;
+    color: #fff;
     display: flex;
     width: 100%;
     margin: 5px;
@@ -113,18 +113,18 @@ h2 {
 
 }
 
-#brio4{
-    color:#fff;
+#brio4 {
+    color: #fff;
     text-align: center;
-    
+
 }
 
 
-.news3{
-    color:#fff;
+.news3 {
+    color: #fff;
     font-size: 14px;
-    text-align:center;
-    color:#fff;
+    text-align: center;
+    color: #fff;
     justify-content: center;
     width: 70%;
     margin: 95px;
@@ -136,28 +136,28 @@ h2 {
     background-color: #34576b;
 }
 
-.title{
-    color:#fff ;
+.title {
+    color: #fff;
 }
 
 
-.title2{
-   color:#fff ;
+.title2 {
+    color: #fff;
 }
 
-#brio5{
+#brio5 {
     text-align: center;
     font-size: 14px;
-    color:#fff;
+    color: #fff;
     justify-content: center;
     width: 90%;
     margin: 16px;
 }
 
-.ingredientes{
+.ingredientes {
     text-align: center;
     font-size: 12px;
-    color:#fff;
+    color: #fff;
     font-size: 14px;
     justify-content: center;
     width: 90%;
@@ -167,19 +167,19 @@ h2 {
 }
 
 
-.title3{
-    text-align:center;
+.title3 {
+    text-align: center;
 
 }
 
-#internews{
+#internews {
     color: black;
 }
 
-.news4{
+.news4 {
     text-align: center;
     font-size: 12px;
-    color:#fff;
+    color: #fff;
     font-size: 14px;
     justify-content: center;
     width: 100%;
@@ -189,7 +189,7 @@ h2 {
 
 }
 
-#estrelas  {
+#estrelas {
     text-align: center;
     color: gold;
 }
@@ -250,18 +250,37 @@ h2 {
     font-size: 1.2rem;
     line-height: 1.5;
 }
+
 @media (max-width: 650px) {
     #Ncolor {
         flex-direction: column;
-        margin-left: 7.7vw;
-        margin-right: 7.7vw;
+        text-align: center;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        width: 90vw;
         margin-top: 1vh;
+        font-size: 20px;
     }
 
     .news2 {
-        margin-left: 3vw;
-        margin-right: 3vw;
-        width: 93vw;
+        font-size: 50px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: -2vh;
+        width: 90vw;
+    }
+
+    .news3 {
+        font-size: 20px;
+        margin-top: -7vh;
+        margin-left: 14vw;
+    }
+
+    .news4 {
+        font-size: xx-large;
+        margin-top: -9vh;
+        margin-left: 0vw;
+        margin-right: 4vw;
     }
 
     #space {
@@ -269,8 +288,8 @@ h2 {
     }
 
     .card-geral {
-        margin-left: 4vw;
-        margin-right: 4vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
         margin-top: 10vh;
         font-size: 9px;
         width: 85vw;
@@ -283,22 +302,27 @@ h2 {
         margin-right: 4vw;
         font-size: 20px;
     }
+
     .opinião {
-        font-size: 10px;
+        font-size: 15px;
         justify-content: center;
     }
+
     .perfil {
         margin-left: 5vw;
     }
+
     video {
         margin-left: 5vw;
         margin-right: 5vw;
     }
+
     .DAC {
         text-align: left;
         margin-left: 2vw;
     }
-    #briocheimg{
+
+    #briocheimg {
         width: 80vw;
     }
 }
