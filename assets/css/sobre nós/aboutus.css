@@ -186,7 +186,7 @@ a:hover:after {
         text-align: center;
         display: flex;
         flex-direction: column;
-        max-width: 390px;
+        max-width: 100%;
     }
     .alpha2{
         display: none;
@@ -202,13 +202,13 @@ a:hover:after {
         flex-direction: column;
     }
     .container{
-        width: 360px;
+        width: 100%;
         word-break: normal;
         display: flex;
         justify-content: center;
     }
     .card{
-        width: 380px;
+        width: 100%;
         word-break: normal;
         display: flex;
         justify-content: center;
@@ -218,15 +218,13 @@ a:hover:after {
         justify-content: center;
     }
     #img{
-        width: 200px;
-        height: 200px;
+        width: 80%;
+        height: 80%;
     }
     .container .card:hover img {
-height: 200px;    }
+   }
 .container .card:hover .imgbx {
-    width: 200px;
-    top: -60px;
-    border-radius: 50%;
+
 }
 .content{
     text-align: center;

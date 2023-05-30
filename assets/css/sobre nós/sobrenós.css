@@ -111,7 +111,7 @@ a:hover:after {
     section{
         background-color: white;
         word-break: normal;
-        width: 290px;
+        width: 100%;
         text-align: center;
     }
    .info1{
@@ -119,10 +119,10 @@ a:hover:after {
    }
    .img2{
 
-    height: 200px;
-    width: 200px;
+    height: 80%;
+    width: 70%;
    }
    .title{
-    right: 100;
+    right: 20%;
    }
 }
