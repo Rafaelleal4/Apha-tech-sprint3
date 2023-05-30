@@ -93,20 +93,45 @@ footer {
 }
 
 @media (max-width: 650px) {
-    .geral {
-        
+    section {
         flex-direction: column;
+        width: 10vw;
+
     }
 
     .card {
-        margin: 7% auto;
-        width: 350px;
-        height: 450px;
+        height: 50vh;
+        width: 70vw;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        margin-top: 3vh;
+        font-size: small;
     }
-    #footer {
-        height: 550px;
+
+    h2 {
+        font-size: 6px;
     }
-    p {
-        margin-top: 10px ;
+    h3{
+        margin-top: 3vh;
+    }
+    .card .content {
+        height: 3vh;
+    }
+
+    .card:hover .content {
+        height: 17vh;
+    }
+    footer {
+        margin-top: 5vh;
+    }
+
+    #eco {
+       
+        margin-left: 32vw;
+        margin-right: 32vw;
+    }
+
+    #fed {
+        width: 70vw;
     }
 }

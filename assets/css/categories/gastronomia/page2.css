@@ -162,3 +162,55 @@ h2 {
     font-size: 1.2rem;
     line-height: 1.5;
 }
+@media (max-width: 650px) {
+    #Ncolor {
+        flex-direction: column;
+        margin-left: 7.7vw;
+        margin-right: 7.7vw;
+        margin-top: 1vh;
+    }
+
+    .news2 {
+        margin-left: 3vw;
+        margin-right: 3vw;
+        width: 93vw;
+    }
+
+    #space {
+        flex-direction: column;
+    }
+
+    .card-geral {
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-top: 10vh;
+        font-size: 9px;
+        width: 85vw;
+        padding: 0;
+    }
+
+    #username {
+        text-align: left;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        font-size: 20px;
+    }
+    .opinião {
+        font-size: 10px;
+        justify-content: center;
+    }
+    .perfil {
+        margin-left: 5vw;
+    }
+    video {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .DAC {
+        text-align: left;
+        margin-left: 2vw;
+    }
+    #briocheimg{
+        width: 80vw;
+    }
+}
