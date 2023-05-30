@@ -238,9 +238,10 @@ h2 {
 
     #anaana{
         flex-direction: column;
-        margin-left: -100%;
+        margin-left: -120%;
         width: 70vw;
         height: 65vh;
+        margin-top: 20vw;
 
     }
 
@@ -258,6 +259,9 @@ h2 {
 
     #ajeitar{
         flex-direction: column;
+        margin-left: 10%;
+        margin-top: 20%;
+        
     }
 
     #ppp{
@@ -283,5 +287,16 @@ h2 {
         height: 70vh;
         margin-left: -20%;
         margin-top: 20%;
+    }
+
+    .sin{
+        width: 20vw;
+        height: 30vh;
+        margin-left: 90%;
+    }
+
+    #flexionar{
+        margin-top: 10%;
+        
     }
 }
