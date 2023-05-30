@@ -202,3 +202,38 @@ img {
     color: white;
     text-align: center;
 }
+
+@media (max-width: 650px) {
+    .sin{
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        margin-left: -5%;
+    }
+
+    .img22{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #reis{
+        flex-direction: column;
+        width: 90vw;
+        height: 200vw;
+        margin-left: 5%;
+    }
+
+    #di123{
+        flex-direction: column;
+        height: 110vh;
+        width: 150vw;
+        margin-left: 25%;
+    }
+
+    #videomtt{
+        margin-left: -30%;
+        width: 110vw;
+        height: 70vh;
+        margin-top: 20%;
+    }
+}

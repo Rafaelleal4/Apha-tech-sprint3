@@ -237,3 +237,60 @@ p {
     color: white;
     text-align: center;
 }
+
+@media (max-width: 650px) {
+    #pp{
+        flex-direction: column;
+        margin-left: 1%;
+        margin-top: 5%;
+    }
+
+    #anaana{
+        flex-direction: column;
+        margin-left: -100%;
+        width: 70vw;
+        height: 65vh;
+
+    }
+
+    #miotto2{
+        margin-left: -150vw;
+        text-align: center;
+        font-size: 130%;
+    }
+
+    #imagemlegal{
+        margin-top: 200%;
+        margin-left: 109%;
+        width: 70vw;
+    }
+
+    #ajeitar{
+        flex-direction: column;
+    }
+
+    #ppp{
+        flex-direction: column;
+        width: 100vw;
+        height: 30vh;
+        margin-left: -120%;
+    }
+
+    #reis{
+        flex-direction: column;
+        width: 90vw;
+        height: 200vw;
+        margin-left: 5%;
+    }
+
+    #arrvideo{
+        margin-left: -30%;
+    }
+
+    #videomiotto{
+        width: 70vw;
+        height: 70vh;
+        margin-left: -20%;
+        margin-top: 20%;
+    }
+}
