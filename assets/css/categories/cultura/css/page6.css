@@ -212,4 +212,7 @@ a{
             flex-direction: column;
             justify-content: center;
         }
+        .banner{
+            width: 100%;
+        }
     }

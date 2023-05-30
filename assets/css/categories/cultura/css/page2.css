@@ -300,4 +300,7 @@ body {
     .img{
         width: 240%;
     }
+    .banner{
+        width: 100%;
+    }
 }
