@@ -92,14 +92,13 @@ footer {
     margin-bottom: -10%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .geral {
-        display: flex;
+        
         flex-direction: column;
     }
 
     .card {
-        display: flex;
         margin: 7% auto;
         width: 350px;
         height: 450px;
