@@ -190,6 +190,21 @@ p {
     width: 200px;
 }
 #noah3{
-    margin-top: -130px;
+    margin-top: -16vh;
+}
+}
+@media(max-width: 300px){
+    #noah{
+        flex-direction: column;
+    }
+    .footer-geral form input,
+.footer-geral form textarea {
+    width: 200px;
+}
+#noah3{
+    margin-top: -10vh;
+}
+footer {
+    margin: -25px;
 }
 }
