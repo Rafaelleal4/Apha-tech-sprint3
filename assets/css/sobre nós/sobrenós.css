@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 body {
@@ -43,6 +43,7 @@ h1 {
     align-items: center;
     width: 270px;
     height: 359px;
+    margin-left: -4px;
 }
 
 .info1 {
@@ -108,4 +109,10 @@ a:hover {
 
 a:hover:after {
     width: 100%;
+}
+@media(max-width: 650px){
+    .info1{
+        flex-direction: column;
+    }
+   
 }

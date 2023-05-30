@@ -253,3 +253,51 @@ body {
     padding: 10px;
     
 }
+@media (max-width: 600px){
+    body{
+        
+    }
+    article{
+        word-break: normal;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    #comentarios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        word-break: normal;
+    }
+    #all-cards{
+        color: white;
+        background-color: beige;
+        width: 320px;
+        word-break: normal; 
+    }
+    #audio{
+        display: none;
+    }
+    .news1{
+        background-color: white;
+    }
+    #natepics{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #songtit{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #Ncolor{
+        margin: 0%;
+        width: 100%;
+       }
+    .img{
+        width: 240%;
+    }
+}

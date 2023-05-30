@@ -178,24 +178,33 @@ p {
     font-weight: bold;
     float: right;
 }
-
-@media (max-width:600px) {
-
-    .footer2 {
-        display: flex;
+#noah{
+    display: flex;
+}
+@media(max-width: 650px){
+    #noah{
         flex-direction: column;
-        margin: 0 auto;
     }
-
-    .git-insta {
-        margin-bottom: 20px;
+    .footer-geral form input,
+.footer-geral form textarea {
+    width: 200px;
+}
+#noah3{
+    margin-top: -16vh;
+}
+}
+@media(max-width: 300px){
+    #noah{
+        flex-direction: column;
     }
-
-    .footer-geral {
-        margin: 0 auto;
-    }
-
-    button {
-        margin-bottom: 20px;
-    }
+    .footer-geral form input,
+.footer-geral form textarea {
+    width: 200px;
+}
+#noah3{
+    margin-top: -10vh;
+}
+footer {
+    margin: -25px;
+}
 }

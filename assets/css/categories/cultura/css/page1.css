@@ -225,6 +225,65 @@ h1 {
     padding: 10px;
     
 }
+@media (max-width: 600px){
+    .banner{
+        width: 100% ;
+        }
+        .img{
+            width: 100%;
+        }
+        .news1{
+            width: 100%;
+        }
+        .casacult{
+            width: 75%;
+        }
+        .images{
+            display: none;
+        }
+        #all-cards{
+            display: flex;
+            flex-direction: column;
+        }
+        .card-geral{
+            display: flex;
+            flex-direction: column;
+        }
+        #comentarios{
+            display: flex;
+            flex-direction: column;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+        }
+        .slider{
+            display: none;
+        }
+        .slider-nav{
+            display: none;
+        }
+        .DAC{
+            margin: 0%;
+        }
+        #Ncolor{
+            width: 100%;
+            margin: 0%;
+        }
+        p{
+            text-align: center;
+            margin: 0%;
+            
+        }
+        h1{
+            margin: 0%;
+        }
+        .news1{
+            margin: 0%;
+        }
+    }
+    
 
 
 
