@@ -184,7 +184,7 @@ h2 {
     }
     #Ncolor{
     width: 150vw;
-    margin-left: 43vw;
+    margin-left: 53vw;
     }
     .banner{
         width: 260vw;
@@ -195,6 +195,16 @@ h2 {
     }
     .img{
         width: 234vw;
+    }
+    #internews{
+        font-size: 28px;
+    }
+    .DAC{
+        font-size: 15px;
+        
+    }
+    #space{
+        margin-left: 20vw;
     }
 
 }
