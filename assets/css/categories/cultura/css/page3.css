@@ -142,7 +142,7 @@ a{
     padding: 10px;
     
 }
-@media (max-width: 390px){
+@media (max-width: 600px){
     .img1{
         width: 360px;
     }
