@@ -225,7 +225,7 @@ h1 {
     padding: 10px;
     
 }
-@media (max-width: 390px){
+@media (max-width: 600px){
     .banner{
         width: 100% ;
         }
