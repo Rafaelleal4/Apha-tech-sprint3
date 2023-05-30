@@ -254,6 +254,9 @@ body {
     
 }
 @media (max-width: 600px){
+    .Btext{
+        width: 100%;
+    }
     body{
         
     }

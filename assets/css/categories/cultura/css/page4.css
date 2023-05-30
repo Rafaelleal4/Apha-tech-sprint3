@@ -171,6 +171,9 @@ a:hover{
     
 }
 @media (max-width: 600px){
+    .Btext{
+        width: 100%;
+    }
     .banner{
         width: 100% ;
         }
