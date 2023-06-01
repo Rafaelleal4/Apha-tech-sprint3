@@ -309,16 +309,16 @@ h2 {
     line-height: 1.5;
 }
 @media (max-width: 650px) {
-    #Ncolor {
-        flex-direction: column;
-        text-align: center;
-        margin-left: 3vw;
-        margin-right: 3vw;
-        width: 90vw;
-        margin-top: 1vh;
-        font-size: 20px;
+    #Ncolor{
+        width: 80vw;
+        margin-left: 8.3vw;
+        margin-right: 8.3vw;
     }
-
+    .news1{
+        margin-left: 14.8vw;
+        margin-right: 14.8vw;
+        margin-top: -10vh;
+    }
     .news2 {
     
         margin-left: 5vw;
@@ -330,7 +330,8 @@ h2 {
     .news3 {
         font-size: 20px;
         margin-top: -7vh;
-        margin-left: 14vw;
+        margin-left: 14.8vw;
+        margin-right: 14.8vw;
     }
     #brio3{
         font-size: 20px;
@@ -338,8 +339,13 @@ h2 {
 
     .news4 {
         margin-top: -9vh;
-        margin-left: 0vw;
-        margin-right: 4vw;
+        margin-left: 14.8vw;
+        margin-right: 14.8vw;
+    }
+    .news5 {
+        margin-top: -9vh;
+        margin-left: 14.8vw;
+        margin-right: 14.8vw;
     }
 #brio5{
     font-size: 20px;
