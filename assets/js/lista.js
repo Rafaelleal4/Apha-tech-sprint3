@@ -12,7 +12,7 @@ function enviar() {
 
 
     var armaz = document.getElementById("armaz")
-    var list = `<div id="lists">` + `<h1 id="titu_list">Titulo: ` + inp1 +`</h1>` + `<h3>Data: ` + inp2 + `</h3>` + `<h3>Descrição: ` + inp3 + `</h3>` + `<h3>Autor: ` + inp4 + `</h3>`
+    var list = `<div id="lists">` + `<h1 id="titu_list">Titulo: ` + inp1 +`</h1>` + `<h3>Data: ` + inp2 + `</h3>` + `<h3>Descrição: ` + inp3 + `</h3>` + `<h3>Autor: ` + inp4 + `</h3>` + `</div>`
 
     armaz.innerHTML += list
 
