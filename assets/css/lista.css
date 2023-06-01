@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color: #c8c5a7;
     font-family: sans-serif;
 }
@@ -71,4 +73,13 @@ label {
 }
 .cust_list{
     border-bottom: black, 7vh, solid;
+}
+
+#footer{
+    margin-top: 10vh;
+    
+}
+#header{
+    margin-bottom: 10vh;
+    
 }
