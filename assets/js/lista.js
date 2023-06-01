@@ -1,26 +1,45 @@
+var global = [];
+var olhodedeus = [];
+var info = [];
+var inp1;
+var inp2;
+var inp3;
+var inp4;
 
+function atualizar() {
+    inp1 = document.getElementById("title").value;
+    inp2 = document.getElementById("calendar").value;
+    inp3 = document.getElementById("descricao").value;
+    inp4 = document.getElementById("dono").value;
+
+    info.push(inp1)
+    info.push(inp2)
+    info.push(inp3)
+    info.push(inp4)
+    global.push(info)
+    for (let i = 0; i < global.length; i++) {
+
+        const olhodedeus = global[i]
+        var armz = document.getElementById("armz");
+        var msg = `<h1 id="titu">Titulo: ${olhodedeus[0]}</h1>
+        <h3 id="cal">Data: ${olhodedeus[1]}</h3>
+        <h3 id="des">Descrição: ${olhodedeus[2]}</h3>
+        <h3 id="auto">Autor: ${olhodedeus[3]}</h3>`
+    }
+
+    armz.innerHTML += msg
+    
+    document.getElementById("title").value = '';
+    document.getElementById("calendar").value = '';
+    document.getElementById("descricao").value = '';
+    document.getElementById("dono").value = '';
+}
 
 function enviar() {
-    var inp1 = document.getElementById("title").value;
-    var inp2 = document.getElementById("calendar").value;
-    var inp3 = document.getElementById("descricao").value;
-    var inp4 = document.getElementById("dono").value;
-    if(inp1 == "" ||inp2 == "" ||inp3 == "" ||inp4 == ""){ 
+    if (inp1 == "" || inp2 == "" || inp3 == "" || inp4 == "") {
         alert("Escreva algo!!!")
         return;
     }
-
-
-    var armaz = document.getElementById("armaz")
-    var list = `<div id="lists">` + `<h1 id="titu_list">Titulo: ` + inp1 +`</h1>` + `<h3 class="cust_list">Data: ` + inp2 + `</h3>` + `<h3 class="cust_list">Descrição: ` + inp3 + `</h3>` + `<h3 class="cust_list">Autor: ` + inp4 + `</h3>` + `</div>`
-
-    armaz.innerHTML += list
-
-    document.getElementById("titulo").innerHTML = ""
-    document.getElementById("date").innerHTML = ""
-    document.getElementById("description").innerHTML = ""
-    document.getElementById("autor").innerHTML = ""
-
-    
-
+    atualizar()
 }
+
