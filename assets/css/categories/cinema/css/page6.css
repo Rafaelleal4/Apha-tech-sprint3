@@ -250,7 +250,6 @@ p {
 
     #anaana{
         margin-left: -91%;
-        margin-top: 100%;
     }
 
     #ajeitar{
@@ -278,6 +277,11 @@ p {
 
     #reis{
         flex-direction: column;
+    }
+
+    #ssmtt{
+        margin-top: 100%;
+        margin-left: -180%;
     }
 
 
