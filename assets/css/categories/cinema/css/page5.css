@@ -31,7 +31,7 @@ main {
     box-shadow: -webkit-box-shadow 23px 23px 28px 16px rgba(169, 0, 0, 0.75);
     -moz-box-shadow: 23px 23px 28px 16px rgba(223, 25, 25, 0.75);
     box-shadow: 23px 23px 28px 16px rgba(0, 0, 0, 0.75);
-    }
+}
 
 img {
     display: flex;
@@ -41,7 +41,7 @@ img {
     margin: 15px;
 }
 
-video{
+video {
     width: 500px;
     height: 300px;
     display: flex;
@@ -70,7 +70,7 @@ p {
 h2 {
     display: flex;
     justify-content: center;
-    color:rgb(220, 99, 12)
+    color: rgb(220, 99, 12)
 }
 
 #ppp {
@@ -84,20 +84,21 @@ h2 {
 
 #ajeitar {
     margin-left: 5%;
-    margin-top:5%;
+    margin-top: 5%;
     text-align: left;
-    border:8px rgb(209, 127, 95) ridge;
+    border: 8px rgb(209, 127, 95) ridge;
     margin-bottom: 3%;
 }
 
 #backimg {
     background-color: rgb(243, 211, 9);
-    border:5px gray ridge;
+    border: 5px gray ridge;
 }
 
-#h3{
+#h3 {
     color: rgb(35, 233, 118);
 }
+
 #anaana {
     display: flex;
     width: 400px;
@@ -107,13 +108,16 @@ h2 {
     background-color: rgb(171, 191, 80);
     background-image: url(../../../../img/otitan.png)
 }
-#internews{
+
+#internews {
     margin-left: 70%;
 }
-#rodape{
+
+#rodape {
     margin-top: 40px;
     margin-bottom: -5px;
 }
+
 #anola {
     width: 20%;
     height: 16%;
@@ -205,10 +209,12 @@ h2 {
     font-size: 1.2rem;
     line-height: 1.5;
 }
+
 /*div do botão*/
 #botao {
     align-items: left;
 }
+
 /*Edições no link no botão de voltar*/
 .bannerA {
     text-decoration: none;
@@ -216,6 +222,7 @@ h2 {
     align-items: left;
     margin: 10px;
 }
+
 /*Edições no botão de voltar*/
 #categ {
     margin: auto;
@@ -227,4 +234,54 @@ h2 {
     background-color: #3b4350;
     color: white;
     text-align: center;
+}
+
+@media (max-width: 650px) {
+    .sin {
+        margin-left: 112%;
+        width: 10vw;
+        height: 45vh;
+    }
+
+    #pp {
+        margin-left: 10%;
+
+    }
+
+    #anaana {
+        margin-left: -100%;
+        margin-top: 10%;
+    }
+
+    #tituloo {
+        margin-left: -203%;
+        margin-top: 100%;
+    }
+
+    #ajeitar {
+        margin-top: 220%;
+    }
+
+    #txtmtt {
+        width: 60vw;
+    }
+
+    #ppp{
+        margin-top: 50%;
+        margin-left: 20%;
+    }
+
+    #video153{
+        margin-left: 20%;
+    }
+
+    #tt153{
+        margin-left: 20%;
+    }
+
+    #reis{
+        flex-direction: column;
+    }
+
+    
 }
