@@ -190,7 +190,14 @@ p {
 }
 
 @media(max-width: 650px) {
-.footer2{
-    font-size: xx-small;
-}
-}
+    .footer2{
+      margin-left: -13vw;
+      margin-right: -13vw;
+    }
+    .footer2 .links{
+        margin-left: 10vw;
+    }
+    .git-insta{
+        margin-left: 35vw;
+    }
+    }
