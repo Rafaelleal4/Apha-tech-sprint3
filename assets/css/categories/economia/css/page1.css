@@ -214,7 +214,7 @@ h2 {
         width: 90vw;
         margin-left: 5vw;
         margin-right: 5vw;
-        font-size: 2px;
+        font-size: 15px;
     }
 
     #internews {
@@ -228,5 +228,8 @@ h2 {
 
     .perfil {
         margin-left: 5vw;
+    }
+    #briocheimg{
+        width: 90vw;
     }
 }
