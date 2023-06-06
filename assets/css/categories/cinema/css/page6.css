@@ -241,3 +241,29 @@ p {
     color: white;
     text-align: center;
 }
+@media (max-width: 600px){
+    .card-geral{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #reis{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sin{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .iimg{
+        width: 100%;
+    }
+    #ppp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
