@@ -1,45 +1,30 @@
-var global = [];
-var olhodedeus = [];
-var info = [];
-var inp1;
-var inp2;
-var inp3;
-var inp4;
-
-function atualizar() {
-    inp1 = document.getElementById("title").value;
-    inp2 = document.getElementById("calendar").value;
-    inp3 = document.getElementById("descricao").value;
-    inp4 = document.getElementById("dono").value;
-
-    info.push(inp1)
-    info.push(inp2)
-    info.push(inp3)
-    info.push(inp4)
-    global.push(info)
-    for (let i = 0; i < global.length; i++) {
-
-        const olhodedeus = global[i]
-        var armz = document.getElementById("armz");
-        var msg = `<h1 id="titu">Titulo: ${olhodedeus[0]}</h1>
-        <h3 id="cal">Data: ${olhodedeus[1]}</h3>
-        <h3 id="des">Descrição: ${olhodedeus[2]}</h3>
-        <h3 id="auto">Autor: ${olhodedeus[3]}</h3>`
-    }
-
-    armz.innerHTML += msg
-    
-    document.getElementById("title").value = '';
-    document.getElementById("calendar").value = '';
-    document.getElementById("descricao").value = '';
-    document.getElementById("dono").value = '';
-}
+var divId = 0;
 
 function enviar() {
-    if (inp1 == "" || inp2 == "" || inp3 == "" || inp4 == "") {
+    var title = document.getElementById('title').value;
+    var date = document.getElementById('date').value;
+    var description = document.getElementById('description').value;
+    var name = document.getElementById('name').value;
+
+    if (title == "" || date == "" || description == "" || name == "") {
         alert("Escreva algo!!!")
         return;
     }
-    atualizar()
+
+    var armaz = document.getElementById('armaz');
+    var list = '<div class="newList" id="newList2' + divId + '">' + '<h2>' + title + '</h2>' + '<p>Data: ' + date + '</p>' + '<p>Descrição: ' + description + '</p>' + '<p>Autor: ' + name + '</p>' + '<button id="remover" onclick="remover(' + divId + ')">Remover</button>' + '</div>';
+
+    armaz.innerHTML += list;
+
+    document.getElementById('title').value = '';
+    document.getElementById('date').value = '';
+    document.getElementById('description').value = '';
+    document.getElementById('name').value = '';
+
+ divId++;
 }
 
+function remover(pao) {
+    var list = document.getElementById('newList2' + pao);
+    list.style.display = 'none';
+}

@@ -40,7 +40,7 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     gap: 100px 50px;
-    padding: 100px 50px;
+   
 }
 
 .container .card {
@@ -54,6 +54,7 @@ footer {
     border-radius: 20px;
     box-shadow: 0 35px 80px rgba(0, 0, 0, 0.6);
     transition: 0.5s;
+    
 }
 
 .container .card:hover {
@@ -182,6 +183,11 @@ a:hover:after {
     text-align: center;
     background-color: white;
 }
+.card {
+    margin-bottom: 110px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 @media(max-width: 650px){
   
     .alpha2{
@@ -192,5 +198,10 @@ a:hover:after {
     }
     .sb2{
         flex-direction: column;
+    }
+    .card {
+        margin-bottom: 110px;
+        margin-left: -100px;
+    margin-right: -100px;
     }
 }

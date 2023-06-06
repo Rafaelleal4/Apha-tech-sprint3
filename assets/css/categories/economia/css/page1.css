@@ -214,19 +214,21 @@ h2 {
         width: 90vw;
         margin-left: 5vw;
         margin-right: 5vw;
-        font-size: 2px;
+        font-size: 15px;
     }
 
     #internews {
         padding: 0;
         font-size: 25px;
     }
-
     .DAC {
         font-size: 10px;
     }
 
     .perfil {
         margin-left: 5vw;
+    }
+    #briocheimg{
+        width: 90vw;
     }
 }
