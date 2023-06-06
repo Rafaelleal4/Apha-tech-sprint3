@@ -56,3 +56,14 @@ label {
     margin-bottom: 10vh;
     
 }
+@media (max-width: 650px) {
+    input{
+        width: 60vw;
+        height: 3vh;
+        margin-top: 3vh;
+    }
+    div{
+        height: auto;
+        width: 69vw;
+    }
+}

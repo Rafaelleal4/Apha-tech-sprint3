@@ -162,7 +162,7 @@ section.grid1 {
     text-decoration: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .clima {
         width: 100%;
     }
