@@ -20,6 +20,7 @@ input {
     width: 96vw;
     height: 5vh;
     margin-left: 10px;
+    margin-top: 5vh;
 }
 label {
     margin-left: 10px;
@@ -36,44 +37,19 @@ label {
     background-color: #76b900;
     color: white;
     margin-left: 10px;
+    margin-top: 3vh;
 }
-#titulo { 
-    text-align: left;
-    margin-bottom: -2vh;
-}
-#date {
-    color: gray;
-    margin-bottom: -2vh;
-}
-#description {
-    color: gray;
-    margin-bottom: -1.5vh;
-}
-#autor {
-    color: gray;
-    
-}
+
 #remover {
-    margin-left: 20vw;
+    margin-left: 30vw;
     background-color: red;
     color: white;
     border-radius: 5px;
     width: auto;
 }
-#lists {
-    height: auto;
-    width: 97.5vw;
-    background-color: white;
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#titu{
-    text-align: left;
-}
 
 #footer{
-    margin-top: 10vh;
+    margin-top: 15vh;
     
 }
 #header{

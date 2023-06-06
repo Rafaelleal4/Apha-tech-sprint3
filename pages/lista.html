@@ -9,31 +9,18 @@
 </head>
 <body>
     <iframe id="header" src="../layout/header.html" frameborder="0" width="100%" height="207vh" scrolling="no"></iframe>
-    <h1>Minha lista de Itens</h1>
+    <h1>Minha lista de coisas a fazer</h1>
     <div>
-        <label>Título</label>
-        <br>
         <input id="title" type="text" placeholder="Título">
-        <br>
-        <label>Data</label>
-        <br>
-        <input id="calendar" type="date" name="" id="" >
-        <br>
-        <label>Descrição</label>
-        <br>
-        <input id="descricao" type="text" placeholder="Descrição">
-        <br>
-        <label>Autor</label>
-        <br>
-        <input id="dono" type="text" placeholder="Autor">
-        <br>
-        <button id="enviar" onclick="enviar()">Clique Aqui</button>
-    </div>
-
-    <div id="armaz">
-    </div>
+        <input id="date" type="date">
+        <input id="description" type="text" placeholder="Descrição">
+        <input id="name" type="text" placeholder="Digite seu nome">
+        <button id="enviar" onclick="enviar()">Novo Post</button>
+      </div>
+    
+      <div id="armaz"></div>
  
-    <iframe src="../layout/footer.html" frameborder="0" width="100%" height="383vh" scrolling="no"
+    <iframe src="../layout/footer.html" frameborder="0" width="100%" height="300vh" scrolling="no"
     id="footer"></iframe> 
 </body>
 </html>
