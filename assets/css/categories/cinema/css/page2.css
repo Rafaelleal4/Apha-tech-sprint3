@@ -260,6 +260,7 @@ p {
     #ajeitar{
         flex-direction: column;
         width: 53vw;
+        margin-top: 100%;
     }
 
     #pp{
@@ -275,8 +276,9 @@ p {
     }
 
     #imgdorama{
-        width: 55vw;
-        height: 55vw;
+        width: 70vw;
+        height: 70vw;
+        margin-top: 150%;
     }
 
     .card-geral{
@@ -288,7 +290,8 @@ p {
     #reis{
         flex-direction: column;
         width: 50vw;
-        height: 200vw;
+        height: 290vw;
+        margin-top: 20%;
     }
 
     #flexionar{
