@@ -244,21 +244,23 @@ p {
 
 @media (max-width: 650px) {
     .sin{
-        margin-left: 119%;
+        margin-left: 133%;
         height: 50vh;
     }
 
     #anaana{
-        margin-left: -91%;
+        margin-left: -115%;
+        width: 80vw;
     }
 
     #ajeitar{
-        height: 80vh;
-        margin-top: 150%;
+        height: 120vh;
+        margin-top: 250%;
     }
 
     #txtmtt {
         width: 60vw;
+        margin-top: 5%;
     }
 
     #video153{
@@ -281,8 +283,18 @@ p {
 
     #ssmtt{
         margin-top: 100%;
-        margin-left: -180%;
+        margin-left: -170%;
     }
+
+    #img1{
+        margin-left: -130%;
+    }
+
+    #sin{
+        margin-left: -130%;
+    }
+
+   
 
 
 }
