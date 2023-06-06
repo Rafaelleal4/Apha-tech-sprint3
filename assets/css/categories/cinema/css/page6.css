@@ -241,28 +241,24 @@ p {
     color: white;
     text-align: center;
 }
-@media (max-width: 600px){
-    .card-geral{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    #reis{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+
+@media (max-width: 650px) {
     .sin{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
+        margin-left: 133%;
+        height: 50vh;
     }
-    .iimg{
-        width: 100%;
+
+    #anaana{
+        margin-left: -115%;
+        width: 80vw;
     }
-    #ppp{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+
+    #ajeitar{
+        height: 120vh;
+        margin-top: 250%;
     }
+
+    #txtmtt {
+        width: 60vw;
+        margin-top: 5%;
+
