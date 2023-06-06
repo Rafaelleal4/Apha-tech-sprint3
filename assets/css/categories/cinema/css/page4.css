@@ -219,7 +219,7 @@ img {
     #reis{
         flex-direction: column;
         width: 90vw;
-        height: 200vw;
+        height: 250vw;
         margin-left: 5%;
     }
 
@@ -232,8 +232,12 @@ img {
 
     #videomtt{
         margin-left: -30%;
-        width: 110vw;
-        height: 70vh;
+        width: 70vw;
+        height: 20vh;
         margin-top: 20%;
+    }
+
+    #tt2{
+        margin-top: 80%;
     }
 }
