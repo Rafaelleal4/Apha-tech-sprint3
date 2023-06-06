@@ -253,3 +253,36 @@ p {
     color: white;
     text-align: center;
 }
+
+@media (max-width: 650px) {
+    #anica{
+        margin-left: 145%;
+        height: 60vh;
+    }
+
+    #ssmtt{
+        margin-left: -200%;
+        margin-top: 130%;
+    }
+
+    #anaana{
+        margin-left: -100%;
+    }
+
+    #txtmtt {
+        width: 70vw;
+        height: 30vh;
+    }
+
+    #video153{
+        margin-left: 20%;
+    }
+
+    #tt153{
+        margin-left: 40%;
+    }
+
+    #reis{
+        flex-direction: column;
+    }
+}
