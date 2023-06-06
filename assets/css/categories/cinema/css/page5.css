@@ -250,22 +250,26 @@ h2 {
     }
 
     #anaana {
-        margin-left: -50%;
-        margin-top: 10%;
+        margin-left: -92%;
+        margin-top: 50%;
+        width: 70vw;
     }
 
     #tituloo {
-        margin-left: -140%;
-        margin-top: 100%;
+        margin-left: -185%;
+        margin-top: 140%;
         font-size: 5vw;
     }
 
     #ajeitar {
-        margin-top: 220%;
+        margin-top: 500%;
+
     }
 
     #txtmtt {
         width: 60vw;
+        margin-top: 90%;
+
     }
 
     #ppp{
@@ -274,15 +278,21 @@ h2 {
     }
 
     #video153{
-        margin-left: 20%;
+        margin-left: 3%;
+        width: 70vw;
+        height: 70vh;
     }
 
     #tt153{
-        margin-left: 20%;
+        margin-left: 5%;
     }
 
     #reis{
         flex-direction: column;
+    }
+
+    #imggg{
+        margin-left: -180%;
     }
 
     
