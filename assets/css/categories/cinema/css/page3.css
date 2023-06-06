@@ -249,7 +249,7 @@ p {
         flex-direction: column;
         margin-left: -100%;
         width: 70vw;
-        height: 65vh;
+        height: 100vh;
 
     }
 
@@ -260,13 +260,15 @@ p {
     }
 
     #imagemlegal{
-        margin-top: 200%;
+        margin-top: 300%;
         margin-left: 109%;
         width: 70vw;
     }
 
     #ajeitar{
         flex-direction: column;
+        width: 60vw;
+        height: 68vh;
     }
 
     #ppp{
@@ -278,9 +280,9 @@ p {
 
     #reis{
         flex-direction: column;
-        width: 90vw;
-        height: 200vw;
-        margin-left: 5%;
+        width: 100vw;
+        height: 280vw;
+        margin-left: -1%;
     }
 
     #arrvideo{
@@ -288,9 +290,18 @@ p {
     }
 
     #videomiotto{
-        width: 70vw;
-        height: 70vh;
-        margin-left: -20%;
-        margin-top: 20%;
+        width: 60vw;
+        height: 40vh;
+        margin-left: 45%;
+        margin-top: -20%;
+    }
+
+    #tt1{
+        margin-top: 120%;
+        margin-left: 30%;
+    }
+
+    .DAC{
+        margin-top: 90%;
     }
 }
