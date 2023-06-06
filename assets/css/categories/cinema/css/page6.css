@@ -241,48 +241,28 @@ p {
     color: white;
     text-align: center;
 }
-
-@media (max-width: 650px) {
-    .sin{
-        margin-left: 119%;
-        height: 50vh;
-    }
-
-    #anaana{
-        margin-left: -91%;
-    }
-
-    #ajeitar{
-        height: 80vh;
-        margin-top: 150%;
-    }
-
-    #txtmtt {
-        width: 60vw;
-    }
-
-    #video153{
-        margin-left: -75%;
-        margin-top: 30%;
-    }
-
-    #tt153{
-        margin-left: -180%;
-        margin-top: 240%;
-    }
-
-    #internews{
-        margin-left: 60%;
-    }
-
-    #reis{
+@media (max-width: 600px){
+    .card-geral{
+        display: flex;
         flex-direction: column;
+        justify-content: center;
     }
-
-    #ssmtt{
-        margin-top: 100%;
-        margin-left: -180%;
+    #reis{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-
-
-}
+    .sin{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .iimg{
+        width: 100%;
+    }
+    #ppp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
