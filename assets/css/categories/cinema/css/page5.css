@@ -246,16 +246,18 @@ h2 {
     #pp {
         margin-left: 10%;
 
+
     }
 
     #anaana {
-        margin-left: -100%;
+        margin-left: -50%;
         margin-top: 10%;
     }
 
     #tituloo {
-        margin-left: -203%;
+        margin-left: -140%;
         margin-top: 100%;
+        font-size: 5vw;
     }
 
     #ajeitar {
