@@ -151,13 +151,13 @@ a:hover::after {
 }
 @media (max-width:600px) {
     li {
-        font-size: 12px;
+        font-size: 20px;
         justify-content: space-between;
     }
     a {
         padding: 0;
     }
-    #cont{
-        margin-left: 20vw;
-    }
+    #separado{
+        text-align: center;
+     }
 }
