@@ -97,8 +97,8 @@ h2 {
 }
 
 #backimg {
-    background-color: aqua;
-    border: 5px rgb(185, 183, 183) ridge;
+    background-color: rgb(144, 196, 228);
+    border: 5px white ridge;
 }
 
 h3 {
@@ -312,5 +312,8 @@ p {
        background-color: #ffc107;
     }
 
+    #backimg {
+        background-color: rgb(144, 196, 228);
+    }
   
 }
