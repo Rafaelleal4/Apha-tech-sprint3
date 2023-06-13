@@ -242,7 +242,7 @@ button:hover {
 #footer {
     display: flex;
 }
-@media (max-width: 390px){
+@media (max-width: 600px){
     .container{
         margin-left: -4%;
         
@@ -255,5 +255,9 @@ button:hover {
         display: flex;
         flex-direction: row;
         
+    }
+    .screen-body{
+        display: flex;
+        flex-direction: column;
     }
 }

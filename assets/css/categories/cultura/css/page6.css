@@ -200,19 +200,20 @@ a{
         }
         .img{
             margin: 0%;
-            margin-left: -25%;
+            margin-left: 0%;
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
         .img3{
             margin: 0%;
-            margin-left: 10%;
+            margin-left: 0%;
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
         .banner{
             width: 100%;
+            margin: 0%;
         }
     }
