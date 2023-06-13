@@ -255,6 +255,7 @@ p {
         flex-direction: column;
         width: 50%;
         height: 100vw;
+        margin-left: -3%;
     }
     
     #ajeitar{
@@ -265,6 +266,7 @@ p {
 
     #pp{
         width: 50vw;
+        margin-left: 32%;
 
     }
 
