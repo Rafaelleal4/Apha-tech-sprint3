@@ -94,4 +94,13 @@ iframe {
     .sections{
         margin-top: 10%;
     }
+
+    #holofote{
+        width: 76vw;
+    }
+
+    #imgtt{
+        width: 70vw;
+        height: 30vh;
+    }
 }
