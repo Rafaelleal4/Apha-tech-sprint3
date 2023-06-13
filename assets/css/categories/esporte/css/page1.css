@@ -187,20 +187,23 @@ img {
         padding: 0;
     }
     iframe{
-        width: 195vw;
+        width: 100vw;
     }
     #Ncolor{
-    width: 150vw;
+    margin-top: -5vh ;
+    width: 100vw;
+    margin-right: auto;
+    margin-left: auto;
     }
     .banner{
-        width: 190vw;
-    }
-    .card {
-        flex-direction: column;
+        width: 90vw;
+        height: 20vh;
+        margin-right: auto;
+        margin-left: auto;
     }
     #all-cards{
-        margin-left: 28vw;
-        margin-right: 20vw;
+        flex-direction: column;
+    
     }
     
 }

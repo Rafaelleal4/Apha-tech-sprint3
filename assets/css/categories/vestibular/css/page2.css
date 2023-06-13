@@ -180,31 +180,24 @@ h2 {
         padding: 0;
     }
     iframe{
-        width: 260vw;
+        width: 100vw;
     }
     #Ncolor{
-    width: 150vw;
-    margin-left: 53vw;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
     }
     .banner{
-        width: 260vw;
-    }
-    .card {
-        flex-direction: column;
-
-    }
-    .img{
-        width: 234vw;
-    }
-    #internews{
-        font-size: 28px;
-    }
-    .DAC{
-        font-size: 15px;
-        
+        width: 100vw;
     }
     #space{
-        margin-left: 20vw;
+       flex-direction: column;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .card-geral{
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
