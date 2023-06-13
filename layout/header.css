@@ -153,6 +153,7 @@ a:hover::after {
     li {
         font-size: 14px;
         justify-content: space-between;
+        height: 1vh;
     }
     a {
         padding: 0;
