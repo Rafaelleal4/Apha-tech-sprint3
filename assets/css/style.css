@@ -181,7 +181,7 @@ section.grid1 {
 
     .card {
         display: flex;
-       margin-left: -11.5vw;
+        width: auto;
       
 
     }
