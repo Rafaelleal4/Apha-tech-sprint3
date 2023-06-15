@@ -283,20 +283,21 @@ p {
     #imgdorama{
         width: 70vw;
         height: 70vw;
-        margin-top: 180%;
+        margin-top: 200%;
     }
 
     .card-geral{
         width: 80vw;
         height: 80vw;
         flex-direction: column;
+        margin-top: 10%;
     }
 
     #reis{
         flex-direction: column;
         width: 50vw;
         height: 230vw;
-        margin-top: 20%;
+        margin-top: 10%;
     }
 
     #flexionar{
