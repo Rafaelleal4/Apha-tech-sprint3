@@ -9,107 +9,32 @@ body {
     background-color: #c8c5a7;
 }
 
-#clima {
-    margin: 50px;
-    position: fixed;
-    width: 100%;
+#noticia_principal{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img_np{
+    margin-top: -0.7vh;
+    height: 75vh;
+    width: 70%;
+    border-radius: 4px;
 }
 
 #footer {
     bottom: -5px;
     position: relative;
 }
-
-/* CARROSSEL */
-
-.container {
-    margin: 100px;
-    margin-bottom: 75px;
-}
-
-.slider-geral {
-    position: relative;
-    max-width: 48rem;
-    margin: 0 auto;
-}
-
-.slider {
-    display: flex;
-    aspect-ratio: 16 / 9;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-    border-radius: 0.5rem;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    box-shadow: -webkit-box-shadow 15px 15px 54px 25px rgba(0, 0, 0, 0.66);
-    -moz-box-shadow: 15px 15px 54px 25px rgba(0, 0, 0, 0.66);
-    box-shadow: 15px 15px 54px 25px rgba(0, 0, 0, 0.66);
-
-}
-
-.slider::-webkit-scrollbar {
-    display: none;
-}
-
-.slider img {
-    flex: 1 0 100%;
-    scroll-snap-align: start;
-    object-fit: cover;
-}
-
-.slider-nav {
-    display: flex;
-    gap: 1rem;
-    position: absolute;
-    bottom: 1.25rem;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-
-.slider-nav a {
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
-    background-color: #fff;
-    opacity: 0.75;
-    transition: opacity ease 250ms;
-}
-
-.slider-nav a:hover {
-    opacity: 1;
-}
-
 /*   GRID DE NOTICIAS*/
 
 .grid1 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 90%;
-    margin: auto;
-    grid-gap: 20px;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
     margin-bottom: 5vh;
 }
 
-section.grid1 {
-    width: 80%;
-}
-
-.grid1>div:nth-child(n + 4) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    align-items: center;
-}
-
-
-.grid1>div.maior {
-    grid-column: 1;
-    grid-row: 2 / 4;
-    display: block;
-}
 
 /* CARDS */
 
@@ -121,6 +46,7 @@ section.grid1 {
     display: flex;
     flex-direction: column;
     width: 300px;
+    margin: 1.5vw;
 }
 
 .card img {
@@ -158,9 +84,6 @@ section.grid1 {
 }
 
 @media (max-width: 650px) {
-    .clima {
-        width: 100%;
-    }
 
     .grid1 {
         height: auto;
@@ -171,11 +94,6 @@ section.grid1 {
         margin-right: auto;
         justify-content: center;
         margin-bottom: 5vh;
-    }
-
-    .container {
-        width: auto;
-        margin: 10% auto;
     }
 
     .card {
@@ -189,9 +107,7 @@ section.grid1 {
         height: 30vh;
     }
 
-    .grid1>div:nth-child(n + 4) {
-        display: unset;
-    }
+    
 
     .img {
         width: auto;
