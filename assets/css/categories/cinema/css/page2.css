@@ -266,7 +266,7 @@ p {
 
     #pp{
         width: 60vw;
-        margin-left: 18%;
+        margin-left: 15%;
 
     }
 
@@ -284,7 +284,14 @@ p {
     #imgdorama{
         width: 70vw;
         height: 70vw;
-        margin-top: 200%;
+        margin-top: 300%;
+        margin-top: 400%;
+        margin-left: 8%;
+    }
+
+    .texto{
+        margin-bottom: 10%;
+
     }
 
     .card-geral{
@@ -328,6 +335,7 @@ p {
         width: 75vw;
         height: 30vh;
         font-size: 15px;
+        margin-left: 17%;
     }
 
     #clarinha{
