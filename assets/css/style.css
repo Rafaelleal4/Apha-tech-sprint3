@@ -7,14 +7,75 @@ body {
     margin: 0;
     padding: 0;
     background-color: #c8c5a7;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
-#noticia_principal{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+    color: #000000;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    background-color: #c8c5a7;
+}
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module p {
+    margin-bottom: 40px;
+}
+section.module:last-child{
+margin-bottom: 0;
+}
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+section.module.container{
+    padding: 40px 0;
+    background: #c8c5a7;
+}
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+section.module.parx-1{
+    background-image: url(https://imagens.ebc.com.br/HfiHL-FCtAWA7RxXFSrqWwnjW4A=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/52910972985_fe5f399780_k.jpg?itok=aMmjJtzp);
+}
+#noticia_principal {
     margin-left: auto;
     margin-right: auto;
 }
 
-#img_np{
+#img_np {
     margin-top: -0.7vh;
     height: 75vh;
     width: 70%;
@@ -25,6 +86,7 @@ body {
     bottom: -5px;
     position: relative;
 }
+
 /*   GRID DE NOTICIAS*/
 
 .grid1 {
@@ -54,7 +116,7 @@ body {
     border-top-right-radius: 4px;
     max-width: 100%;
     height: auto;
-   
+
 }
 
 .card-info {
@@ -82,11 +144,12 @@ body {
     padding: 8px;
     text-decoration: none;
 }
-#nono{
+
+#nono {
     height: 32vh;
     margin-left: 27vw;
     margin-bottom: 10vh;
-    
+
 }
 
 @media (max-width: 650px) {
@@ -106,14 +169,14 @@ body {
         flex-direction: column;
         height: auto;
         width: auto;
-        
+
     }
 
     #footer {
         height: 30vh;
     }
 
-    
+
 
     .img {
         width: auto;
