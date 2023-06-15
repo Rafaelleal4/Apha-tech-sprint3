@@ -85,12 +85,12 @@ section {
     .card {
         flex-direction: column;
         margin: 7% auto;
-        width: 350px;
-        height: 450px;
+        width: auto;
+        height: auto;
     }
 
     #footer {
-        height: 550px;
+        height: 40vh;
     }
     p {
         margin-top: 10px ;
@@ -98,4 +98,5 @@ section {
     #eco {
         font-size: 50px;
     }
+
 }
