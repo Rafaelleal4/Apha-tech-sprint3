@@ -7,16 +7,6 @@ function enviar() {
     var datainvert = datacorreta.reverse().join("/");
     var description = document.getElementById('description').value;
     var name = document.getElementById('name').value;
-    var dataHoje = new Date();
-    var dataFormModificada = Date(date);
-
-    if(dataHoje < dataFormModificada){
-    alert("Não pode escolher uma data passada")
-    document.getElementById('title').value = '';
-    document.getElementById('date').value = '';
-    document.getElementById('description').value = '';
-    document.getElementById('name').value = '';
-    }
 
     if (title == "" || date == "" || description == "" || name == "") {
         alert("Escreva algo!!!")
