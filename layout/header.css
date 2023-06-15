@@ -154,6 +154,7 @@ a:hover::after {
         font-size: 14px;
         justify-content: space-between;
         height: 1vh;
+        margin: 0;
     }
     a {
         padding: 0;
@@ -162,3 +163,18 @@ a:hover::after {
         text-align: center;
      }
 }
+@media (max-width:350px) {
+    li{
+        margin-left: 4vw;
+        padding: 0;
+        text-align: center;
+    }
+    #separado{
+        margin-top: -13vh;
+        margin-left: 20vw;
+     }
+     .conteiner{
+        gap: 0;
+     }
+}
+
