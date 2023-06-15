@@ -268,25 +268,28 @@ body {
     #comentarios{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        word-break: normal;
+        margin: 0%;
     }
     #all-cards{
-        color: white;
-        background-color: beige;
-        width: 320px;
-        word-break: normal; 
+        margin: 0%;
     }
     #audio{
         display: none;
     }
     .news1{
         background-color: white;
+        margin: 0%;
+        text-align: center;
+        width: 100%;
     }
     #natepics{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        text-align: center;
+margin: 0%;
+display: flex;
+flex-direction: column;
+width: 100%;
+
+
     }
     #songtit{
         display: flex;
@@ -298,10 +301,40 @@ body {
         width: 100%;
        }
     .img{
-        width: 240%;
+        margin: 0%;
+        width: 100%;
     }
     .banner{
         width: 100%;
+        margin: 0%;
+    }
+    article{
+        margin: 0%;
+        width: 100%;
+    }
+    img{
+        width: 100%;
+        
+    }
+    #des1{
+        margin: 0%;
+    }
+    #des2{
+        margin: 0%;
+    }
+    #DAC{
+        margin: 0%;
+        width: 100%;
+        text-align: center;
+    }
+    .card-geral{
+display: none;
+    }
+    .stars{
+        margin: 0%;
+        width: 100%;
+    }
+    #card{
         margin: 0%;
     }
 }
