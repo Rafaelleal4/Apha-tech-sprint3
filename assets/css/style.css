@@ -168,6 +168,8 @@ section.grid1 {
     }
 
     .grid1 {
+        height: auto;
+        width: auto;
         display: flex;
         flex-direction: column;
         margin-left: auto;
@@ -180,10 +182,10 @@ section.grid1 {
     }
 
     .card {
-        display: flex;
+        flex-direction: column;
+        height: auto;
         width: auto;
-      
-
+        margin-left: -6.5vw;
     }
 
     #footer {
@@ -195,8 +197,8 @@ section.grid1 {
     }
 
     .img {
-        width: 420px;
-        padding: 10px;
+        width: auto;
+        height: auto;
     }
 
     .grid1>div.maior {
