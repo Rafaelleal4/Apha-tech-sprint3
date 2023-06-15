@@ -144,10 +144,12 @@ a{
 }
 @media (max-width: 600px){
     .img1{
-        width: 360px;
+        margin: 0%;
+        width: 100%;
     }
     .news1{
-        
+        margin: 0%;
+        width: 100%;
     }
     #Ncolor{
         width: 100%;
@@ -173,6 +175,29 @@ a{
     }
     .banner{
         width: 100%;
+        margin: 0%;
+    }
+    #DAC{
+        margin: 0%;
+        width: 100%;
+        text-align: center;
+    }
+    #comentarios{
+        margin: 0%;
+        width: 100%;
+    }
+    #all-cards{
+        margin: 0%;
+        width: 100%;
+    }
+    .card-geral{
+        display: none;
+    }
+    .img{
+        margin: 0%;
+        width: 100%;
+    }
+    #space{
         margin: 0%;
     }
 }
