@@ -7,8 +7,16 @@ body{
 h1{
     text-align: center;
 }
-div{
+#inputs{
     height: auto;
+    width: 97.5vw;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newList{
     width: 97.5vw;
     background-color: white;
     border-radius: 5px;
@@ -38,14 +46,22 @@ label {
     color: white;
     margin-left: 10px;
     margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 #remover {
-    margin-left: 10px;
+    margin-left: 1.5vw;
     background-color: red;
     color: white;
     border-radius: 5px;
     width: auto;
+    margin-bottom: 3vh;
+}
+h2{
+    margin-left: 2vw;
+}
+p{
+    margin-left: 2vw;
 }
 
 #footer{
@@ -62,7 +78,7 @@ label {
         height: 3vh;
         margin-top: 3vh;
     }
-    div{
+    .newList{
         height: auto;
         width: 69vw;
     }
