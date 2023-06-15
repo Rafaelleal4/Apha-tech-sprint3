@@ -195,6 +195,7 @@ a:hover:after {
     }
     .sb{
         flex-direction: column;
+        margin-top: 15vh;
     }
     .sb2{
         flex-direction: column;
@@ -203,5 +204,8 @@ a:hover:after {
         margin-bottom: 110px;
         margin-left: -100px;
     margin-right: -100px;
+    }
+    .container{
+        margin-top: 10vh;
     }
 }
