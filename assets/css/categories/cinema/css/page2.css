@@ -261,6 +261,7 @@ p {
         flex-direction: column;
         width: 60vw;
         margin-left: 7%;
+        margin-top: 70%;
     }
 
     #pp{
@@ -295,9 +296,10 @@ p {
 
     #reis{
         flex-direction: column;
-        width: 50vw;
-        height: 230vw;
+        width: 40vw;
+        height: 300vw;
         margin-top: 10%;
+        margin-left: 1%;
     }
 
     #flexionar{
@@ -321,5 +323,15 @@ p {
     #backimg {
         background-color: rgb(144, 196, 228);
     }
+
+    .card-geral{
+        width: 75vw;
+        height: 30vh;
+        font-size: 15px;
+    }
+
+    #clarinha{
+        font-size: 13px;
+    }  
   
 }
