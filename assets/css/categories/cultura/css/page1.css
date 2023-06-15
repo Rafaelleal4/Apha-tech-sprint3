@@ -255,8 +255,7 @@ h1 {
 
         }
         .card-geral{
-            display: flex;
-            flex-direction: column;
+display: none;
         }
         #comentarios{
             display: flex;
