@@ -190,36 +190,21 @@ section.module.parallax h1 {
     margin-bottom: 10vh;
 
 }
-
-@media (max-width: 650px) {
-
-    .grid1 {
-        height: auto;
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-        margin-bottom: 5vh;
+@media (max-width:600px) {
+    section.module p {
+        font-size: medium;
+        margin-bottom: 0;
     }
-
-    .card {
-        flex-direction: column;
-        height: auto;
-        width: auto;
-
+    section.module h2{
+        font-size: 20px;
     }
-
-    #footer {
-        height: 30vh;
+    section.module.parallax h1{
+        font-size: 40px;
     }
-
-
-
-    .img {
-        width: auto;
-        height: auto;
+    section.module.container{
+        padding: 0;
     }
-
+.container{
+    max-width: 300px;
+}    
 }
